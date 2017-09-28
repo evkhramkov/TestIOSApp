@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TestIOSProject2/TestIOSProject2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:TestIOSProject1/TestIOSProject1.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:TestIOSApp.xcodeproj">
    </FileRef>
 </Workspace>
