@@ -1,2 +1,6 @@
+echo "staging"
+ls "$BUILD_ARTIFACTSTAGINGDIRECTORY/build"
+echo "build archive"
 ls "$AGENT_BUILDDIRECTORY/output/build/archive"
-ls "$AGENT_BUILDDIRECTORY/output/build/export/"
+echo "build export"
+ls "$AGENT_BUILDDIRECTORY/output/build/export"
