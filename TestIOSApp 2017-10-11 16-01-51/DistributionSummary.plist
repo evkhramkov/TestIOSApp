@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TestIOSApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>F1AB1F2D9A492EE6FDCDC8453A8EC7C717413321</string>
+				<key>dateExpires</key>
+				<string>11.10.18</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>29UTQE9JS9.com.ewgenius.testiosapp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>29UTQE9JS9</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>29UTQE9JS9.com.ewgenius.testiosapp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>TestIOSApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f7ebcaf8-5ee4-4ea8-92b6-3306e9b93a02</string>
+				<key>name</key>
+				<string>Ewgenius Development Profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>29UTQE9JS9</string>
+				<key>name</key>
+				<string>Bowstreet Solutions GmbH</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
