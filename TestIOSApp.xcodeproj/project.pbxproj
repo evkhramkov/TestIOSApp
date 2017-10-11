@@ -193,7 +193,8 @@
 				TargetAttributes = {
 					8977CE021ECAD7C0003E8DE4 = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 29UTQE9JS9;
+						ProvisioningStyle = Manual;
 					};
 					8977CE161ECAD7C0003E8DE4 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -337,7 +338,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Евгений Храмков (49635WNZ4Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -388,7 +390,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Евгений Храмков (49635WNZ4Y)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -414,10 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = TestIOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.TestIOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.testiosapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ebcaf8-5ee4-4ea8-92b6-3306e9b93a02";
+				PROVISIONING_PROFILE_SPECIFIER = "Ewgenius Development Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +433,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = TestIOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.TestIOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.testiosapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ebcaf8-5ee4-4ea8-92b6-3306e9b93a02";
+				PROVISIONING_PROFILE_SPECIFIER = "Ewgenius Development Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +518,7 @@
 				8977CE2D1ECAD7C0003E8DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8977CE2E1ECAD7C0003E8DE4 /* Build configuration list for PBXNativeTarget "TestIOSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +527,7 @@
 				8977CE301ECAD7C0003E8DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8977CE311ECAD7C0003E8DE4 /* Build configuration list for PBXNativeTarget "TestIOSAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				8977CE331ECAD7C0003E8DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
